@@ -27,7 +27,7 @@ Minecraft Bedrock 附加包。当前版本 **v2.1.19**（引擎 **1.21.0+**）�
 - 经验修补、抢夺仅 **末地**
 - 墨鱼 / 鹦鹉螺 / 潜影贝可桶装；潜影贝用末影珍珠驯服；染料只改色；氧化铜取出物品
 
-完整中英说明与昼夜鱼表见 [`video/my_pack_world_rules.md`](../docs/video-script.md)。
+完整列表见仓库根目录 [README](../README.md)。
 
 ## 许可 / License
 
