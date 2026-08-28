@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Pets & Enchant Fish RP v2.1.19",
+    "description": "Pets and 42 enchant fish textures.",
+    "uuid": "d9c8e7f6-5a4b-3c2d-1e0f-a9b8c7d6e5f4",
+    "version": [
+      2,
+      1,
+      19
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources",
+      "type": "resources",
+      "uuid": "5c6d7e8f-9012-3456-cdef-123456789012",
+      "version": [
+        2,
+        1,
+        19
+      ]
+    }
+  ]
+}

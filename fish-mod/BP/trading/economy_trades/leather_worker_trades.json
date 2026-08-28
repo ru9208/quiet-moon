@@ -1,0 +1,99 @@
+{
+	"format_version": "1.18.10",
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_feather_falling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_thorns",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:leather",
+									"quantity": 32
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:acacia_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:golden_carrot",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

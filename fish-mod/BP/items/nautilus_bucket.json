@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "my_pack:nautilus_bucket",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "nautilus_bucket",
+      "minecraft:use_modifiers": {
+        "use_duration": 0
+      }
+    }
+  }
+}

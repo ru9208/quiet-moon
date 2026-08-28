@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Pets & Enchant Fish BP v2.1.19",
+    "description": "Tamed shulker, mob buckets, 42 enchant fish, biome fishing, villager/wandering trader economy.",
+    "uuid": "e1f4a6b8-2c3d-4e5f-9a7b-8c1d2e3f4a5b",
+    "version": [
+      2,
+      1,
+      19
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "type": "data",
+      "uuid": "3a4b5c6d-7e8f-9012-abcd-ef1234567890",
+      "version": [
+        2,
+        1,
+        19
+      ]
+    },
+    {
+      "description": "Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "4b5c6d7e-8f90-1234-bcde-f12345678901",
+      "entry": "scripts/main.js",
+      "version": [
+        2,
+        1,
+        19
+      ]
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ],
+  "dependencies": [
+    {
+      "uuid": "d9c8e7f6-5a4b-3c2d-1e0f-a9b8c7d6e5f4",
+      "version": [
+        2,
+        1,
+        19
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ]
+}

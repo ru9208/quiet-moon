@@ -1,0 +1,36 @@
+{
+	"resource_pack_name": "my_pack_food",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"gale_chicken_stew": {
+			"textures": "textures/items/gale_chicken_stew"
+		},
+		"brute_beef_stew": {
+			"textures": "textures/items/brute_beef_stew"
+		},
+		"rejuvenating_honeyroot_stew": {
+			"textures": "textures/items/rejuvenating_honeyroot_stew"
+		},
+		"turtle_shell_stew": {
+			"textures": "textures/items/turtle_shell_stew"
+		},
+		"nether_pork_stew": {
+			"textures": "textures/items/nether_pork_stew"
+		},
+		"seabreath_cold_stew": {
+			"textures": "textures/items/seabreath_cold_stew"
+		},
+		"nightlow_salmon_stew": {
+			"textures": "textures/items/nightlow_salmon_stew"
+		},
+		"veilsh_rabbit_stew": {
+			"textures": "textures/items/veilsh_rabbit_stew"
+		},
+		"springberry_rabbit_stew": {
+			"textures": "textures/items/springberry_rabbit_stew"
+		},
+		"down_feather_stew": {
+			"textures": "textures/items/down_feather_stew"
+		}
+	}
+}

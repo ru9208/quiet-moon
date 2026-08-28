@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "my_pack:springberry_rabbit_stew_10"
+		},
+		"group": "my_pack_springberry_rabbit_stew",
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:potion",
+				"data": 10
+			},
+			{
+				"item": "minecraft:cooked_rabbit"
+			},
+			{
+				"item": "minecraft:sweet_berries"
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:bowl"
+			},
+			{
+				"item": "minecraft:cooked_rabbit"
+			}
+		],
+		"result": {
+			"item": "my_pack:springberry_rabbit_stew",
+			"count": 1
+		}
+	}
+}

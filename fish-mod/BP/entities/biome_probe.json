@@ -1,0 +1,1037 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "enchant_fish:biome_probe",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "enchant_fish_biome_probe",
+          "inanimate"
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "the_end"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_the_end"
+              }
+            ],
+            "event": "enchant_fish:probe_add_the_end"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "the_end"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_the_end"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_the_end"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "desert"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_desert"
+              }
+            ],
+            "event": "enchant_fish:probe_add_desert"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "desert"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_desert"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_desert"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "savanna"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_savanna"
+              }
+            ],
+            "event": "enchant_fish:probe_add_savanna"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "savanna"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_savanna"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_savanna"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "mesa"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_mesa"
+              }
+            ],
+            "event": "enchant_fish:probe_add_mesa"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "mesa"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_mesa"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_mesa"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "jungle"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_jungle"
+              }
+            ],
+            "event": "enchant_fish:probe_add_jungle"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "jungle"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_jungle"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_jungle"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "bamboo"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_bamboo"
+              }
+            ],
+            "event": "enchant_fish:probe_add_bamboo"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "bamboo"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_bamboo"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_bamboo"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "swamp"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_swamp"
+              }
+            ],
+            "event": "enchant_fish:probe_add_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "swamp"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_swamp"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "mangrove_swamp"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_mangrove_swamp"
+              }
+            ],
+            "event": "enchant_fish:probe_add_mangrove_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "mangrove_swamp"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_mangrove_swamp"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_mangrove_swamp"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "taiga"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_taiga"
+              }
+            ],
+            "event": "enchant_fish:probe_add_taiga"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "taiga"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_taiga"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_taiga"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "frozen"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_frozen"
+              }
+            ],
+            "event": "enchant_fish:probe_add_frozen"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "frozen"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_frozen"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_frozen"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "ice"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_ice"
+              }
+            ],
+            "event": "enchant_fish:probe_add_ice"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "ice"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_ice"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_ice"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "snow_covered"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_snow_covered"
+              }
+            ],
+            "event": "enchant_fish:probe_add_snow_covered"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "snow_covered"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_snow_covered"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_snow_covered"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "cold"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_cold"
+              }
+            ],
+            "event": "enchant_fish:probe_add_cold"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "cold"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_cold"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_cold"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "mountain"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_mountain"
+              }
+            ],
+            "event": "enchant_fish:probe_add_mountain"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "mountain"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_mountain"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_mountain"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "jagged_peaks"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_jagged_peaks"
+              }
+            ],
+            "event": "enchant_fish:probe_add_jagged_peaks"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "jagged_peaks"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_jagged_peaks"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_jagged_peaks"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "meadow"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_meadow"
+              }
+            ],
+            "event": "enchant_fish:probe_add_meadow"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "meadow"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_meadow"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_meadow"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "grove"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_grove"
+              }
+            ],
+            "event": "enchant_fish:probe_add_grove"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "grove"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_grove"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_grove"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "extreme_hills"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_extreme_hills"
+              }
+            ],
+            "event": "enchant_fish:probe_add_extreme_hills"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "extreme_hills"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_extreme_hills"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_extreme_hills"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "roofed"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_roofed"
+              }
+            ],
+            "event": "enchant_fish:probe_add_roofed"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "roofed"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_roofed"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_roofed"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "cherry_grove"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_cherry_grove"
+              }
+            ],
+            "event": "enchant_fish:probe_add_cherry_grove"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "cherry_grove"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_cherry_grove"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_cherry_grove"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "sulfur_caves"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_sulfur_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_add_sulfur_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "sulfur_caves"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_sulfur_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_sulfur_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "ocean"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_ocean"
+              }
+            ],
+            "event": "enchant_fish:probe_add_ocean"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "ocean"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_ocean"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_ocean"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "beach"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_beach"
+              }
+            ],
+            "event": "enchant_fish:probe_add_beach"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "beach"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_beach"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_beach"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "dripstone_caves"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_dripstone_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_add_dripstone_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "dripstone_caves"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_dripstone_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_dripstone_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "lush_caves"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_lush_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_add_lush_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "lush_caves"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_lush_caves"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_lush_caves"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "value": "deep_dark"
+              },
+              {
+                "test": "has_tag",
+                "operator": "not",
+                "value": "enchant_fish:probe_deep_dark"
+              }
+            ],
+            "event": "enchant_fish:probe_add_deep_dark"
+          },
+          {
+            "filters": [
+              {
+                "test": "has_biome_tag",
+                "operator": "not",
+                "value": "deep_dark"
+              },
+              {
+                "test": "has_tag",
+                "value": "enchant_fish:probe_deep_dark"
+              }
+            ],
+            "event": "enchant_fish:probe_remove_deep_dark"
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:transient": {}
+    },
+    "events": {
+      "enchant_fish:probe_add_the_end": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_the_end\""
+        }
+      },
+      "enchant_fish:probe_remove_the_end": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_the_end\""
+        }
+      },
+      "enchant_fish:probe_add_desert": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_desert\""
+        }
+      },
+      "enchant_fish:probe_remove_desert": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_desert\""
+        }
+      },
+      "enchant_fish:probe_add_savanna": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_savanna\""
+        }
+      },
+      "enchant_fish:probe_remove_savanna": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_savanna\""
+        }
+      },
+      "enchant_fish:probe_add_mesa": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_mesa\""
+        }
+      },
+      "enchant_fish:probe_remove_mesa": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_mesa\""
+        }
+      },
+      "enchant_fish:probe_add_jungle": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_jungle\""
+        }
+      },
+      "enchant_fish:probe_remove_jungle": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_jungle\""
+        }
+      },
+      "enchant_fish:probe_add_bamboo": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_bamboo\""
+        }
+      },
+      "enchant_fish:probe_remove_bamboo": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_bamboo\""
+        }
+      },
+      "enchant_fish:probe_add_swamp": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_swamp\""
+        }
+      },
+      "enchant_fish:probe_remove_swamp": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_swamp\""
+        }
+      },
+      "enchant_fish:probe_add_mangrove_swamp": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_mangrove_swamp\""
+        }
+      },
+      "enchant_fish:probe_remove_mangrove_swamp": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_mangrove_swamp\""
+        }
+      },
+      "enchant_fish:probe_add_taiga": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_taiga\""
+        }
+      },
+      "enchant_fish:probe_remove_taiga": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_taiga\""
+        }
+      },
+      "enchant_fish:probe_add_frozen": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_frozen\""
+        }
+      },
+      "enchant_fish:probe_remove_frozen": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_frozen\""
+        }
+      },
+      "enchant_fish:probe_add_ice": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_ice\""
+        }
+      },
+      "enchant_fish:probe_remove_ice": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_ice\""
+        }
+      },
+      "enchant_fish:probe_add_snow_covered": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_snow_covered\""
+        }
+      },
+      "enchant_fish:probe_remove_snow_covered": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_snow_covered\""
+        }
+      },
+      "enchant_fish:probe_add_cold": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_cold\""
+        }
+      },
+      "enchant_fish:probe_remove_cold": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_cold\""
+        }
+      },
+      "enchant_fish:probe_add_mountain": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_mountain\""
+        }
+      },
+      "enchant_fish:probe_remove_mountain": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_mountain\""
+        }
+      },
+      "enchant_fish:probe_add_jagged_peaks": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_jagged_peaks\""
+        }
+      },
+      "enchant_fish:probe_remove_jagged_peaks": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_jagged_peaks\""
+        }
+      },
+      "enchant_fish:probe_add_meadow": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_meadow\""
+        }
+      },
+      "enchant_fish:probe_remove_meadow": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_meadow\""
+        }
+      },
+      "enchant_fish:probe_add_grove": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_grove\""
+        }
+      },
+      "enchant_fish:probe_remove_grove": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_grove\""
+        }
+      },
+      "enchant_fish:probe_add_extreme_hills": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_extreme_hills\""
+        }
+      },
+      "enchant_fish:probe_remove_extreme_hills": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_extreme_hills\""
+        }
+      },
+      "enchant_fish:probe_add_roofed": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_roofed\""
+        }
+      },
+      "enchant_fish:probe_remove_roofed": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_roofed\""
+        }
+      },
+      "enchant_fish:probe_add_cherry_grove": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_cherry_grove\""
+        }
+      },
+      "enchant_fish:probe_remove_cherry_grove": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_cherry_grove\""
+        }
+      },
+      "enchant_fish:probe_add_sulfur_caves": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_sulfur_caves\""
+        }
+      },
+      "enchant_fish:probe_remove_sulfur_caves": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_sulfur_caves\""
+        }
+      },
+      "enchant_fish:probe_add_ocean": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_ocean\""
+        }
+      },
+      "enchant_fish:probe_remove_ocean": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_ocean\""
+        }
+      },
+      "enchant_fish:probe_add_beach": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_beach\""
+        }
+      },
+      "enchant_fish:probe_remove_beach": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_beach\""
+        }
+      },
+      "enchant_fish:probe_add_dripstone_caves": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_dripstone_caves\""
+        }
+      },
+      "enchant_fish:probe_remove_dripstone_caves": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_dripstone_caves\""
+        }
+      },
+      "enchant_fish:probe_add_lush_caves": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_lush_caves\""
+        }
+      },
+      "enchant_fish:probe_remove_lush_caves": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_lush_caves\""
+        }
+      },
+      "enchant_fish:probe_add_deep_dark": {
+        "queue_command": {
+          "command": "tag @s add \"enchant_fish:probe_deep_dark\""
+        }
+      },
+      "enchant_fish:probe_remove_deep_dark": {
+        "queue_command": {
+          "command": "tag @s remove \"enchant_fish:probe_deep_dark\""
+        }
+      }
+    }
+  }
+}

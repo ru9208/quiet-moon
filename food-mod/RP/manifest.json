@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Food RP v1.0.48",
+    "description": "pack.description",
+    "uuid": "012a54fc-4ef2-4377-b70f-f30bd3da34a2",
+    "version": [
+      1,
+      0,
+      48
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources",
+      "type": "resources",
+      "uuid": "f3e98c03-73d7-41f7-9753-f90ddb31ff3e",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

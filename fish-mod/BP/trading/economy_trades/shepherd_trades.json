@@ -1,0 +1,116 @@
+{
+	"format_version": "1.18.10",
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_frost_walker",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_bane_of_arthropods",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_wind_burst",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:white_wool",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:stripped_birch_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:glistering_melon_slice",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

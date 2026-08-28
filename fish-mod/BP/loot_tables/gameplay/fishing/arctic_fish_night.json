@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_silk_touch"
+				}
+			]
+		}
+	]
+}

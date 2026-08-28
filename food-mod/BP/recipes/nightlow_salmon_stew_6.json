@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "my_pack:nightlow_salmon_stew_6"
+		},
+		"group": "my_pack_nightlow_salmon_stew",
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:potion",
+				"data": 6
+			},
+			{
+				"item": "minecraft:cooked_salmon"
+			},
+			{
+				"item": "minecraft:glow_berries"
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:bowl"
+			},
+			{
+				"item": "minecraft:cooked_salmon"
+			}
+		],
+		"result": {
+			"item": "my_pack:nightlow_salmon_stew",
+			"count": 1
+		}
+	}
+}

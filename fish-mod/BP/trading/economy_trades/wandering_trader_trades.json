@@ -1,0 +1,1472 @@
+{
+	"format_version": "1.18.10",
+	"tiers": [
+		{
+			"groups": [
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"weight": 80,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "my_pack:shulker_bucket",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true
+						},
+						{
+							"weight": 60,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "my_pack:shulker_bucket",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true
+						},
+						{
+							"weight": 40,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "my_pack:shulker_bucket",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1,
+							"reward_exp": true
+						},
+						{
+							"weight": 55,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "my_pack:zombie_nautilus_bucket",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true
+						},
+						{
+							"weight": 50,
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 2
+								}
+							],
+							"gives": [
+								{
+									"item": "my_pack:coral_zombie_nautilus_bucket",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true
+						}
+					]
+				},
+				{
+					"num_to_select": 2,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "minecraft:potion:0",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:water_bucket",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:milk_bucket",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:fermented_spider_eye",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:baked_potato",
+									"quantity": 4
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:hay_block",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 1
+						}
+					]
+				},
+				{
+					"num_to_select": 2,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_blast_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_fire_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_projectile_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_feather_falling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_thorns",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_respiration",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_aqua_affinity",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_depth_strider",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_frost_walker",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_soul_speed",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_swift_sneak",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_sharpness",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_smite",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_bane_of_arthropods",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						}
+					]
+				},
+				{
+					"num_to_select": 5,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_knockback",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_fire_aspect",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_looting",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_impaling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_loyalty",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_channeling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_riptide",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_power",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_punch",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_flame",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_infinity",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_piercing",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_multishot",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_quick_charge",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_efficiency",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_silk_touch",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_fortune",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_unbreaking",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_luck_of_the_sea",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_lure",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_mending",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_breach",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_density",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_wind_burst",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_lunge",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_binding_curse",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_vanishing_curse",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_blast_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_fire_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_projectile_protection",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_feather_falling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_thorns",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_respiration",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_aqua_affinity",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_depth_strider",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_frost_walker",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_soul_speed",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_swift_sneak",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_sharpness",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_smite",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_bane_of_arthropods",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 2,
+							"reward_exp": true,
+							"trader_exp": 25
+						}
+					]
+				},
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:oak_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:spruce_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:birch_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:jungle_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:acacia_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:dark_oak_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:mangrove_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:cherry_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:pale_oak_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:crimson_stem",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:warped_stem",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				},
+				{
+					"num_to_select": 1,
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:experience_bottle",
+									"quantity": 16
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:golden_carrot",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:glistering_melon_slice",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:rabbit_foot",
+									"quantity": 16
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:pufferfish",
+									"quantity": 16
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:glowstone_dust",
+									"quantity": 16
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

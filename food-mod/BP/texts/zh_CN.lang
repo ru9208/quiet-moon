@@ -1,0 +1,13 @@
+pack.name=食物包
+pack.description=药剂炖菜、怪物调整与猪灵声望。
+
+item.my_pack.gale_chicken_stew.name=疾风鸡汤
+item.my_pack.brute_beef_stew.name=蛮力炖
+item.my_pack.rejuvenating_honeyroot_stew.name=回春蜜根汤
+item.my_pack.turtle_shell_stew.name=神龟甲汤
+item.my_pack.nether_pork_stew.name=下界猪排锅
+item.my_pack.seabreath_cold_stew.name=海息寒汤
+item.my_pack.nightlow_salmon_stew.name=夜视鲑鱼汤
+item.my_pack.veilsh_rabbit_stew.name=隐踪兔汤
+item.my_pack.springberry_rabbit_stew.name=轻身莓兔盅
+item.my_pack.down_feather_stew.name=浮羽炖

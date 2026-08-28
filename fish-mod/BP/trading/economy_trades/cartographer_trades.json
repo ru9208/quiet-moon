@@ -1,0 +1,386 @@
+{
+	"format_version": "1.18.10",
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_depth_strider",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_channeling",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:glass_pane",
+									"quantity": 32
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:birch_log",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "village_plains"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "village_desert"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "village_savanna"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "village_snowy"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "village_taiga"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "swamp_hut"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "jungle_temple"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "trial_chambers"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "monument"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								},
+								{
+									"item": "minecraft:empty_map",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:map",
+									"quantity": 1,
+									"functions": [
+										{
+											"function": "exploration_map",
+											"destination": "mansion"
+										}
+									]
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:experience_bottle",
+									"quantity": 16
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

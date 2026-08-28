@@ -1,0 +1,9 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "my_pack.silent": {
+      "category": "neutral",
+      "sounds": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/gameplay/fishing/junk.json",
+					"weight": 25
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/gameplay/fishing/treasure.json",
+					"weight": 5
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/gameplay/fishing/vanilla_desert_fish_fullmoon.json",
+					"weight": 65
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/gameplay/fishing/desert_fish_night.json",
+					"weight": 5
+				}
+			]
+		}
+	]
+}

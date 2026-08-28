@@ -1,0 +1,13 @@
+pack.name=Food
+pack.description=Ensopados de pocoes, ajustes de mobs e reputacao piglin.
+
+item.my_pack.gale_chicken_stew.name=Estofado de Frango Vendaval
+item.my_pack.brute_beef_stew.name=Estofado de Carne Bruta
+item.my_pack.rejuvenating_honeyroot_stew.name=Estofado de Mel Rejuvenescedor
+item.my_pack.turtle_shell_stew.name=Estofado de Casco de Tartaruga
+item.my_pack.nether_pork_stew.name=Estofado de Porco do Nether
+item.my_pack.seabreath_cold_stew.name=Estofado Frio do Mar
+item.my_pack.nightlow_salmon_stew.name=Estofado de Salmão Noturno
+item.my_pack.veilsh_rabbit_stew.name=Estofado de Coelho Velado
+item.my_pack.springberry_rabbit_stew.name=Estofado de Coelho Primaveril
+item.my_pack.down_feather_stew.name=Estofado de Plumagem

@@ -1,0 +1,13 @@
+pack.name=Food
+pack.description=Potion stews, mob tweaks, and piglin reputation.
+
+item.my_pack.gale_chicken_stew.name=Gale Chicken Stew
+item.my_pack.brute_beef_stew.name=Brute Beef Stew
+item.my_pack.rejuvenating_honeyroot_stew.name=Rejuvenating Honeyroot Stew
+item.my_pack.turtle_shell_stew.name=Turtle Shell Stew
+item.my_pack.nether_pork_stew.name=Nether Pork Stew
+item.my_pack.seabreath_cold_stew.name=Seabreath Cold Stew
+item.my_pack.nightlow_salmon_stew.name=Nightlow Salmon Stew
+item.my_pack.veilsh_rabbit_stew.name=Veilsh Rabbit Stew
+item.my_pack.springberry_rabbit_stew.name=Springberry Rabbit Stew
+item.my_pack.down_feather_stew.name=Down Feather Stew

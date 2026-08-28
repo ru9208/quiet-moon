@@ -1,0 +1,150 @@
+{
+	"format_version": "1.18.10",
+	"tiers": [
+		{
+			"total_exp_required": 0,
+			"groups": [
+				{
+					"trades": [
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_sharpness",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_smite",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_fire_aspect",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "enchant_fish:fish_lunge",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 25
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:purpur_block",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:quartz_bricks",
+									"quantity": 32
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:warped_stem",
+									"quantity": 64
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						},
+						{
+							"wants": [
+								{
+									"item": "minecraft:emerald",
+									"quantity": 1
+								}
+							],
+							"gives": [
+								{
+									"item": "minecraft:golden_carrot",
+									"quantity": 1
+								}
+							],
+							"max_uses": 16,
+							"reward_exp": true,
+							"trader_exp": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.my_pack.shulker": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.black",
+            "Texture.red",
+            "Texture.green",
+            "Texture.brown",
+            "Texture.blue",
+            "Texture.purple",
+            "Texture.cyan",
+            "Texture.silver",
+            "Texture.gray",
+            "Texture.pink",
+            "Texture.lime",
+            "Texture.yellow",
+            "Texture.light_blue",
+            "Texture.magenta",
+            "Texture.orange",
+            "Texture.white",
+            "Texture.undyed",
+            "Texture.black_sit",
+            "Texture.red_sit",
+            "Texture.green_sit",
+            "Texture.brown_sit",
+            "Texture.blue_sit",
+            "Texture.purple_sit",
+            "Texture.cyan_sit",
+            "Texture.silver_sit",
+            "Texture.gray_sit",
+            "Texture.pink_sit",
+            "Texture.lime_sit",
+            "Texture.yellow_sit",
+            "Texture.light_blue_sit",
+            "Texture.magenta_sit",
+            "Texture.orange_sit",
+            "Texture.white_sit",
+            "Texture.undyed_sit"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "Material.default" }],
+      "textures": [
+        "Array.skins[query.variant + ((query.is_sitting || query.mark_variant) ? 17 : 0)]"
+      ],
+      "part_visibility": [
+        { "head": "!q.property('my_pack:hide_head')" }
+      ]
+    }
+  }
+}

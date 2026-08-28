@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "my_pack:gale_chicken_stew_14"
+		},
+		"group": "my_pack_gale_chicken_stew",
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:potion",
+				"data": 14
+			},
+			{
+				"item": "minecraft:cooked_chicken"
+			},
+			{
+				"item": "minecraft:carrot"
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:bowl"
+			},
+			{
+				"item": "minecraft:cooked_chicken"
+			}
+		],
+		"result": {
+			"item": "my_pack:gale_chicken_stew",
+			"count": 1
+		}
+	}
+}

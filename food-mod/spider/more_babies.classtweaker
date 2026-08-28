@@ -1,0 +1,5 @@
+classTweaker v1 official
+
+extendable method net/minecraft/world/entity/LivingEntity getScale ()F
+extendable method net/minecraft/world/entity/AgeableMob setBaby (Z)V
+accessible field net/minecraft/world/item/CreativeModeTabs TOOLS_AND_UTILITIES Lnet/minecraft/resources/ResourceKey;

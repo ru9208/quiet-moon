@@ -1,0 +1,13 @@
+# My Pack GitHub publish exclusions
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# local / generated
+**/export/
+**/_backup/
+**/tools/output/
+**/.cursor/

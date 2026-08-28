@@ -1,0 +1,40 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "my_pack:down_feather_stew_40"
+		},
+		"group": "my_pack_down_feather_stew",
+		"tags": [
+			"crafting_table"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:potion",
+				"data": 40
+			},
+			{
+				"item": "minecraft:cooked_chicken"
+			},
+			{
+				"item": "minecraft:chorus_fruit"
+			},
+			{
+				"item": "minecraft:bowl"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:bowl"
+			},
+			{
+				"item": "minecraft:cooked_chicken"
+			}
+		],
+		"result": {
+			"item": "my_pack:down_feather_stew",
+			"count": 1
+		}
+	}
+}

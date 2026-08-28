@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Food BP v1.0.48",
+    "description": "pack.description",
+    "uuid": "d3a00784-394f-4224-bf5b-c06b2eb026a3",
+    "version": [
+      1,
+      0,
+      48
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behavior",
+      "type": "data",
+      "uuid": "88a356f7-9ca0-4610-9009-ed34ab31970e",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    },
+    {
+      "description": "Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b4584131-786f-440b-a805-35897be50be3",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "012a54fc-4ef2-4377-b70f-f30bd3da34a2",
+      "version": [
+        1,
+        0,
+        48
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

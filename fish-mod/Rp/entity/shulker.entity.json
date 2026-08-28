@@ -1,0 +1,81 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:shulker",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "shulker"
+      },
+      "textures": {
+        "black": "textures/shulker/shulker_black",
+        "black_sit": "textures/shulker/shulker_black_sit",
+        "red": "textures/shulker/shulker_red",
+        "red_sit": "textures/shulker/shulker_red_sit",
+        "green": "textures/shulker/shulker_green",
+        "green_sit": "textures/shulker/shulker_green_sit",
+        "brown": "textures/shulker/shulker_brown",
+        "brown_sit": "textures/shulker/shulker_brown_sit",
+        "blue": "textures/shulker/shulker_blue",
+        "blue_sit": "textures/shulker/shulker_blue_sit",
+        "purple": "textures/shulker/shulker_purple",
+        "purple_sit": "textures/shulker/shulker_purple_sit",
+        "cyan": "textures/shulker/shulker_cyan",
+        "cyan_sit": "textures/shulker/shulker_cyan_sit",
+        "silver": "textures/shulker/shulker_light_gray",
+        "silver_sit": "textures/shulker/shulker_light_gray_sit",
+        "gray": "textures/shulker/shulker_gray",
+        "gray_sit": "textures/shulker/shulker_gray_sit",
+        "pink": "textures/shulker/shulker_pink",
+        "pink_sit": "textures/shulker/shulker_pink_sit",
+        "lime": "textures/shulker/shulker_lime",
+        "lime_sit": "textures/shulker/shulker_lime_sit",
+        "yellow": "textures/shulker/shulker_yellow",
+        "yellow_sit": "textures/shulker/shulker_yellow_sit",
+        "light_blue": "textures/shulker/shulker_light_blue",
+        "light_blue_sit": "textures/shulker/shulker_light_blue_sit",
+        "magenta": "textures/shulker/shulker_magenta",
+        "magenta_sit": "textures/shulker/shulker_magenta_sit",
+        "orange": "textures/shulker/shulker_orange",
+        "orange_sit": "textures/shulker/shulker_orange_sit",
+        "white": "textures/shulker/shulker_white",
+        "white_sit": "textures/shulker/shulker_white_sit",
+        "undyed": "textures/shulker/shulker",
+        "undyed_sit": "textures/shulker/shulker_sit"
+      },
+      "geometry": {
+        "default": "geometry.shulker.v1.8"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_shulker"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Shulker.PeekAmount = query.is_tamed && !q.property('my_pack:hide_head') ? variable.Shulker.PeekAmount * 0.8 : variable.Shulker.PeekAmount;",
+          "variable.Shulker.LidPositionFactor = 180 * (0.5 + variable.Shulker.PeekAmount);",
+          "variable.Shulker.LidRotationFactor = -1 + Math.sin(180 * (0.5 + variable.Shulker.PeekAmount));",
+          "variable.Shulker.UpFacing = variable.Shulker.FacingDirection == 1;",
+          "variable.Shulker.NorthFacing = variable.Shulker.FacingDirection == 2;",
+          "variable.Shulker.SouthFacing = variable.Shulker.FacingDirection == 3;",
+          "variable.Shulker.WestFacing = variable.Shulker.FacingDirection == 4;",
+          "variable.Shulker.EastFacing = variable.Shulker.FacingDirection == 5;",
+          "variable.Shulker.XPreRotation = variable.Shulker.UpFacing * 180 + variable.Shulker.NorthFacing * 90 - variable.Shulker.SouthFacing * 90;",
+          "variable.Shulker.ZPreRotation = variable.Shulker.NorthFacing * 180 + variable.Shulker.WestFacing * 90 - variable.Shulker.EastFacing * 90;",
+          "variable.Shulker.XOffset = -variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.YOffset = variable.Shulker.UpFacing * 16 + variable.Shulker.NorthFacing * 7.99 + variable.Shulker.SouthFacing * 7.99 + variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.ZOffset = variable.Shulker.NorthFacing * 7.99 - variable.Shulker.SouthFacing * 7.99;"
+        ]
+      },
+      "animations": {
+        "facing": "animation.shulker.facing",
+        "move": "animation.shulker.move",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "animation_controllers": [
+        { "facing": "controller.animation.shulker.facing" },
+        { "move": "controller.animation.shulker.move" }
+      ],
+      "render_controllers": ["controller.render.my_pack.shulker"]
+    }
+  }
+}

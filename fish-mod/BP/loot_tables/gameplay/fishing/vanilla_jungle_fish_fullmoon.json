@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:cod"
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:salmon"
+				},
+				{
+					"type": "item",
+					"weight": 35,
+					"name": "minecraft:tropical_fish"
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "minecraft:pufferfish"
+				}
+			]
+		}
+	]
+}

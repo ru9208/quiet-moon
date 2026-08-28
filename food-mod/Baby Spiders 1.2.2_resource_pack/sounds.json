@@ -1,0 +1,59 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "pa:babyspider": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.pa_babyspider.say",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              1.1794285714285715,
+              1.7020000000000002
+            ]
+          },
+          "death": {
+            "sound": "mob.pa_babyspider.death",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              1.2215714285714285,
+              1.6486190476190477
+            ]
+          },
+          "hurt": {
+            "sound": "mob.pa_babyspider.say",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              1.2271904761904762,
+              1.6682857142857144
+            ]
+          },
+          "step": {
+            "sound": "mob.pa_babyspider.step",
+            "volume": [
+              0.35,
+              0.35
+            ],
+            "pitch": [
+              1.1063809523809522,
+              1.1822380952380953
+            ]
+          }
+        }
+      }
+    }
+  }
+}

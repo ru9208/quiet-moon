@@ -1,0 +1,787 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:fishing_hook",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "loot_default_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing_day.json"
+        }
+      },
+      "loot_default_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing_day_fullmoon.json"
+        }
+      },
+      "loot_default_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing_night.json"
+        }
+      },
+      "loot_default_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing_night_fullmoon.json"
+        }
+      },
+      "loot_end_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/end_fishing_day.json"
+        }
+      },
+      "loot_end_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/end_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_end_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/end_fishing_night.json"
+        }
+      },
+      "loot_end_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/end_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_desert_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/desert_fishing_day.json"
+        }
+      },
+      "loot_desert_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/desert_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_desert_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/desert_fishing_night.json"
+        }
+      },
+      "loot_desert_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/desert_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_jungle_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/jungle_fishing_day.json"
+        }
+      },
+      "loot_jungle_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/jungle_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_jungle_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/jungle_fishing_night.json"
+        }
+      },
+      "loot_jungle_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/jungle_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_swamp_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/swamp_fishing_day.json"
+        }
+      },
+      "loot_swamp_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/swamp_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_swamp_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/swamp_fishing_night.json"
+        }
+      },
+      "loot_swamp_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/swamp_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_arctic_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/arctic_fishing_day.json"
+        }
+      },
+      "loot_arctic_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/arctic_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_arctic_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/arctic_fishing_night.json"
+        }
+      },
+      "loot_arctic_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/arctic_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_mountain_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/mountain_fishing_day.json"
+        }
+      },
+      "loot_mountain_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/mountain_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_mountain_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/mountain_fishing_night.json"
+        }
+      },
+      "loot_mountain_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/mountain_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_roofed_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/roofed_fishing_day.json"
+        }
+      },
+      "loot_roofed_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/roofed_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_roofed_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/roofed_fishing_night.json"
+        }
+      },
+      "loot_roofed_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/roofed_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_cherry_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cherry_fishing_day.json"
+        }
+      },
+      "loot_cherry_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cherry_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_cherry_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cherry_fishing_night.json"
+        }
+      },
+      "loot_cherry_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cherry_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_sulfur_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/sulfur_fishing_day.json"
+        }
+      },
+      "loot_sulfur_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/sulfur_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_sulfur_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/sulfur_fishing_night.json"
+        }
+      },
+      "loot_sulfur_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/sulfur_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_saltwater_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/saltwater_fishing_day.json"
+        }
+      },
+      "loot_saltwater_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/saltwater_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_saltwater_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/saltwater_fishing_night.json"
+        }
+      },
+      "loot_saltwater_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/saltwater_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_cave_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cave_fishing_day.json"
+        }
+      },
+      "loot_cave_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cave_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_cave_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cave_fishing_night.json"
+        }
+      },
+      "loot_cave_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/cave_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_dripstone_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/dripstone_fishing_day.json"
+        }
+      },
+      "loot_dripstone_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/dripstone_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_dripstone_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/dripstone_fishing_night.json"
+        }
+      },
+      "loot_dripstone_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/dripstone_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_lush_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/lush_fishing_day.json"
+        }
+      },
+      "loot_lush_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/lush_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_lush_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/lush_fishing_night.json"
+        }
+      },
+      "loot_lush_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/lush_fishing_night_fullmoon.json"
+        }
+      },
+      "loot_deep_dark_day": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/deep_dark_fishing_day.json"
+        }
+      },
+      "loot_deep_dark_day_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/deep_dark_fishing_day_fullmoon.json"
+        }
+      },
+      "loot_deep_dark_night": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/deep_dark_fishing_night.json"
+        }
+      },
+      "loot_deep_dark_night_fullmoon": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/deep_dark_fishing_night_fullmoon.json"
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.15,
+        "height": 0.15
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "stick_in_ground": {}
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/gameplay/fishing_day.json"
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 7,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "is_daytime",
+              "value": true
+            },
+            "add": {
+              "component_groups": [
+                "loot_default_day"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_daytime",
+              "value": false
+            },
+            "add": {
+              "component_groups": [
+                "loot_default_night"
+              ]
+            }
+          }
+        ]
+      },
+      "enchant_fish:apply_loot_default_day": {
+        "add": {
+          "component_groups": [
+            "loot_default_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_default_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_default_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_default_night": {
+        "add": {
+          "component_groups": [
+            "loot_default_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_default_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_default_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_end_day": {
+        "add": {
+          "component_groups": [
+            "loot_end_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_end_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_end_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_end_night": {
+        "add": {
+          "component_groups": [
+            "loot_end_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_end_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_end_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_desert_day": {
+        "add": {
+          "component_groups": [
+            "loot_desert_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_desert_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_desert_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_desert_night": {
+        "add": {
+          "component_groups": [
+            "loot_desert_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_desert_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_desert_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_jungle_day": {
+        "add": {
+          "component_groups": [
+            "loot_jungle_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_jungle_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_jungle_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_jungle_night": {
+        "add": {
+          "component_groups": [
+            "loot_jungle_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_jungle_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_jungle_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_swamp_day": {
+        "add": {
+          "component_groups": [
+            "loot_swamp_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_swamp_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_swamp_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_swamp_night": {
+        "add": {
+          "component_groups": [
+            "loot_swamp_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_swamp_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_swamp_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_arctic_day": {
+        "add": {
+          "component_groups": [
+            "loot_arctic_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_arctic_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_arctic_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_arctic_night": {
+        "add": {
+          "component_groups": [
+            "loot_arctic_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_arctic_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_arctic_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_mountain_day": {
+        "add": {
+          "component_groups": [
+            "loot_mountain_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_mountain_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_mountain_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_mountain_night": {
+        "add": {
+          "component_groups": [
+            "loot_mountain_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_mountain_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_mountain_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_roofed_day": {
+        "add": {
+          "component_groups": [
+            "loot_roofed_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_roofed_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_roofed_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_roofed_night": {
+        "add": {
+          "component_groups": [
+            "loot_roofed_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_roofed_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_roofed_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cherry_day": {
+        "add": {
+          "component_groups": [
+            "loot_cherry_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cherry_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_cherry_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cherry_night": {
+        "add": {
+          "component_groups": [
+            "loot_cherry_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cherry_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_cherry_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_sulfur_day": {
+        "add": {
+          "component_groups": [
+            "loot_sulfur_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_sulfur_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_sulfur_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_sulfur_night": {
+        "add": {
+          "component_groups": [
+            "loot_sulfur_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_sulfur_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_sulfur_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_saltwater_day": {
+        "add": {
+          "component_groups": [
+            "loot_saltwater_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_saltwater_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_saltwater_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_saltwater_night": {
+        "add": {
+          "component_groups": [
+            "loot_saltwater_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_saltwater_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_saltwater_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cave_day": {
+        "add": {
+          "component_groups": [
+            "loot_cave_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cave_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_cave_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cave_night": {
+        "add": {
+          "component_groups": [
+            "loot_cave_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_cave_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_cave_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_dripstone_day": {
+        "add": {
+          "component_groups": [
+            "loot_dripstone_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_dripstone_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_dripstone_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_dripstone_night": {
+        "add": {
+          "component_groups": [
+            "loot_dripstone_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_dripstone_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_dripstone_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_lush_day": {
+        "add": {
+          "component_groups": [
+            "loot_lush_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_lush_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_lush_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_lush_night": {
+        "add": {
+          "component_groups": [
+            "loot_lush_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_lush_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_lush_night_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_deep_dark_day": {
+        "add": {
+          "component_groups": [
+            "loot_deep_dark_day"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_deep_dark_day_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_deep_dark_day_fullmoon"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_deep_dark_night": {
+        "add": {
+          "component_groups": [
+            "loot_deep_dark_night"
+          ]
+        }
+      },
+      "enchant_fish:apply_loot_deep_dark_night_fullmoon": {
+        "add": {
+          "component_groups": [
+            "loot_deep_dark_night_fullmoon"
+          ]
+        }
+      }
+    }
+  }
+}

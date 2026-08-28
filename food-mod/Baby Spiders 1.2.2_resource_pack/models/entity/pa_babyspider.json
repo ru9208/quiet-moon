@@ -1,0 +1,357 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pa_babyspider_default",
+        "texture_width": 64.0,
+        "texture_height": 32.0,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0.0,
+          0.75,
+          0.0
+        ],
+        "visible_bounds_width": 4.0
+      },
+      "bones": [
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            9,
+            -3
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                2,
+                -7
+              ],
+              "size": [
+                6,
+                5,
+                5
+              ],
+              "uv": [
+                36,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body0",
+          "pivot": [
+            0,
+            9,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.9,
+                2,
+                -4
+              ],
+              "size": [
+                5.8,
+                3.9,
+                7
+              ],
+              "uv": [
+                0,
+                -1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body1",
+          "pivot": [
+            0,
+            9,
+            9
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3,
+                2,
+                3
+              ],
+              "size": [
+                6,
+                5,
+                5
+              ],
+              "uv": [
+                9,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg0",
+          "pivot": [
+            -4,
+            9,
+            2
+          ],
+          "rotation": [
+            0,
+            45,
+            -45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                26,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg1",
+          "pivot": [
+            4,
+            9,
+            2
+          ],
+          "rotation": [
+            0,
+            -45,
+            45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                4,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "pivot": [
+                -1,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                5,
+                0
+              ],
+              "uv": [
+                18,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg2",
+          "pivot": [
+            -4,
+            9,
+            1
+          ],
+          "rotation": [
+            0,
+            15,
+            -35
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                26,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg3",
+          "pivot": [
+            4,
+            9,
+            1
+          ],
+          "rotation": [
+            0,
+            -15,
+            35
+          ],
+          "cubes": [
+            {
+              "origin": [
+                5,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                18,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg4",
+          "pivot": [
+            -4,
+            9,
+            0
+          ],
+          "rotation": [
+            0,
+            -15,
+            -35
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                26,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg5",
+          "pivot": [
+            4,
+            9,
+            0
+          ],
+          "rotation": [
+            0,
+            15,
+            35
+          ],
+          "cubes": [
+            {
+              "origin": [
+                5,
+                4,
+                -1
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                18,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg6",
+          "pivot": [
+            -4,
+            9,
+            -1
+          ],
+          "rotation": [
+            0,
+            -45,
+            -45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13,
+                4,
+                0
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                26,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg7",
+          "pivot": [
+            4,
+            9,
+            -1
+          ],
+          "rotation": [
+            0,
+            45,
+            45
+          ],
+          "cubes": [
+            {
+              "origin": [
+                5,
+                4,
+                0
+              ],
+              "size": [
+                8,
+                2,
+                2
+              ],
+              "uv": [
+                18,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:item": {
+		"description": {
+			"identifier": "enchant_fish:fish_unbreaking",
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.rawFood"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": "fish_unbreaking",
+			"minecraft:hover_text_color": "aqua",
+			"minecraft:allow_off_hand": true
+		}
+	}
+}

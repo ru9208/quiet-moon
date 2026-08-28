@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Adds Baby Spiders to the game. for a cuter and more fun survival experience - Requires Experiments ON -  by NotMnthr",
+    "name": "Baby Spiders 1.2.2",
+    "uuid": "fa2cd780-d694-4218-bfa2-7eaa368db8a5",
+    "version": [
+      1,
+      2,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Adds Baby Spiders to the game. for a cuter and more fun survival experience - Requires Experiments ON -  by NotMnthr",
+      "type": "resources",
+      "uuid": "8867120d-7204-4016-9b06-de6b50220632",
+      "version": [
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "6b1e710d-853f-4417-a189-1f422a4b9a79",
+      "version": [
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "NotMnthr"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.6.8"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

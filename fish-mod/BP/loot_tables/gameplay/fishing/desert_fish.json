@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_blast_protection"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_piercing"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_vanishing_curse"
+				}
+			]
+		}
+	]
+}

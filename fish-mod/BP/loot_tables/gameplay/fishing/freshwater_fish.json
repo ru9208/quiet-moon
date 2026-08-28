@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_mending"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_lure"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_luck_of_the_sea"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_loyalty"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_depth_strider"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_feather_falling"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "enchant_fish:fish_unbreaking"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "my_pack:totem_of_undying_oak"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [" E ", "LDL", " L "],
+    "key": {
+      "E": {
+        "item": "minecraft:emerald"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "L": {
+        "item": "minecraft:stripped_oak_log"
+      }
+    },
+    "result": {
+      "item": "minecraft:totem_of_undying",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:emerald"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:stripped_oak_log"
+      }
+    ]
+  }
+}

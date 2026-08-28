@@ -1,0 +1,13 @@
+pack.name=Food
+pack.description=Guisos de pocion, ajustes de mobs y reputacion piglin.
+
+item.my_pack.gale_chicken_stew.name=Estofado de pollo vendaval
+item.my_pack.brute_beef_stew.name=Estofado de res bruta
+item.my_pack.rejuvenating_honeyroot_stew.name=Estofado de miel raíz
+item.my_pack.turtle_shell_stew.name=Estofado de caparazón
+item.my_pack.nether_pork_stew.name=Estofado de cerdo del Nether
+item.my_pack.seabreath_cold_stew.name=Estofado frío marino
+item.my_pack.nightlow_salmon_stew.name=Estofado de salmón nocturno
+item.my_pack.veilsh_rabbit_stew.name=Estofado de conejo velado
+item.my_pack.springberry_rabbit_stew.name=Estofado de conejo primaveral
+item.my_pack.down_feather_stew.name=Estofado de plumón

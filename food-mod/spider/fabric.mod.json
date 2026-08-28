@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "more_babies",
+  "version": "3.1.1",
+  "name": "More Babies",
+  "description": "Adds more baby mobs! Baby Blaze, Creeper, Enderman, Shulker and many more...",
+  "authors": [
+    "mammut53"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/more-babies",
+    "sources": "https://github.com/mammut53/more-babies"
+  },
+  "license": "ARR",
+  "icon": "assets/more_babies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.mammut53.more_babies.MoreBabiesFabric"
+    ],
+    "client": [
+      "io.github.mammut53.more_babies.client.MoreBabiesFabricClient"
+    ]
+  },
+  "mixins": [
+    "more_babies.mixins.json",
+    "more_babies-fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.19.2",
+    "fabric-api": "*",
+    "minecraft": "\u003e\u003d26.2",
+    "java": "\u003e\u003d25",
+    "midnightlib": "\u003e\u003d1.9.3"
+  },
+  "accessWidener": "more_babies.classtweaker"
+}

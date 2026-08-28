@@ -1,0 +1,150 @@
+{
+	"resource_pack_name": "my_pack_combined",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"shulker_bucket": {
+			"textures": "textures/items/shulker_bucket"
+		},
+		"squid_bucket": {
+			"textures": "textures/items/squid_bucket"
+		},
+		"glow_squid_bucket": {
+			"textures": "textures/items/glow_squid_bucket"
+		},
+		"nautilus_bucket": {
+			"textures": "textures/items/nautilus_bucket"
+		},
+		"zombie_nautilus_bucket": {
+			"textures": "textures/items/z-nautilus_bucket"
+		},
+		"coral_zombie_nautilus_bucket": {
+			"textures": "textures/items/zs-nautilus_bucket"
+		},
+		"fish_protection": {
+			"textures": "textures/items/fish_protection"
+		},
+		"fish_blast_protection": {
+			"textures": "textures/items/fish_blast_protection"
+		},
+		"fish_fire_protection": {
+			"textures": "textures/items/fish_fire_protection"
+		},
+		"fish_projectile_protection": {
+			"textures": "textures/items/fish_projectile_protection"
+		},
+		"fish_feather_falling": {
+			"textures": "textures/items/fish_feather_falling"
+		},
+		"fish_thorns": {
+			"textures": "textures/items/fish_thorns"
+		},
+		"fish_respiration": {
+			"textures": "textures/items/fish_respiration"
+		},
+		"fish_aqua_affinity": {
+			"textures": "textures/items/fish_aqua_affinity"
+		},
+		"fish_depth_strider": {
+			"textures": "textures/items/fish_depth_strider"
+		},
+		"fish_frost_walker": {
+			"textures": "textures/items/fish_frost_walker"
+		},
+		"fish_soul_speed": {
+			"textures": "textures/items/fish_soul_speed"
+		},
+		"fish_swift_sneak": {
+			"textures": "textures/items/fish_swift_sneak"
+		},
+		"fish_sharpness": {
+			"textures": "textures/items/fish_sharpness"
+		},
+		"fish_smite": {
+			"textures": "textures/items/fish_smite"
+		},
+		"fish_bane_of_arthropods": {
+			"textures": "textures/items/fish_bane_of_arthropods"
+		},
+		"fish_knockback": {
+			"textures": "textures/items/fish_knockback"
+		},
+		"fish_fire_aspect": {
+			"textures": "textures/items/fish_fire_aspect"
+		},
+		"fish_looting": {
+			"textures": "textures/items/fish_looting"
+		},
+		"fish_impaling": {
+			"textures": "textures/items/fish_impaling"
+		},
+		"fish_loyalty": {
+			"textures": "textures/items/fish_loyalty"
+		},
+		"fish_channeling": {
+			"textures": "textures/items/fish_channeling"
+		},
+		"fish_riptide": {
+			"textures": "textures/items/fish_riptide"
+		},
+		"fish_power": {
+			"textures": "textures/items/fish_power"
+		},
+		"fish_punch": {
+			"textures": "textures/items/fish_punch"
+		},
+		"fish_flame": {
+			"textures": "textures/items/fish_flame"
+		},
+		"fish_infinity": {
+			"textures": "textures/items/fish_infinity"
+		},
+		"fish_piercing": {
+			"textures": "textures/items/fish_piercing"
+		},
+		"fish_multishot": {
+			"textures": "textures/items/fish_multishot"
+		},
+		"fish_quick_charge": {
+			"textures": "textures/items/fish_quick_charge"
+		},
+		"fish_efficiency": {
+			"textures": "textures/items/fish_efficiency"
+		},
+		"fish_silk_touch": {
+			"textures": "textures/items/fish_silk_touch"
+		},
+		"fish_fortune": {
+			"textures": "textures/items/fish_fortune"
+		},
+		"fish_unbreaking": {
+			"textures": "textures/items/fish_unbreaking"
+		},
+		"fish_luck_of_the_sea": {
+			"textures": "textures/items/fish_luck_of_the_sea"
+		},
+		"fish_lure": {
+			"textures": "textures/items/fish_lure"
+		},
+		"fish_mending": {
+			"textures": "textures/items/fish_mending"
+		},
+		"fish_breach": {
+			"textures": "textures/items/fish_breach"
+		},
+		"fish_density": {
+			"textures": "textures/items/fish_density"
+		},
+		"fish_wind_burst": {
+			"textures": "textures/items/fish_wind_burst"
+		},
+		"fish_lunge": {
+			"textures": "textures/items/fish_lunge"
+		},
+		"fish_binding_curse": {
+			"textures": "textures/items/fish_binding_curse"
+		},
+		"fish_vanishing_curse": {
+			"textures": "textures/items/fish_vanishing_curse"
+		}
+	}
+}

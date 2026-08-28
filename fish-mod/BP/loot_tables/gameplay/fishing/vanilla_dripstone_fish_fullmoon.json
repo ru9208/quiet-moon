@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 55,
+					"name": "minecraft:cod"
+				},
+				{
+					"type": "item",
+					"weight": 45,
+					"name": "minecraft:salmon"
+				}
+			]
+		}
+	]
+}
