@@ -12,7 +12,7 @@
 ## 作者
 
 - 作者：**ru9208**
-- Bilibili 介绍视频：**（发布后把链接填在这里）**
+- Bilibili 介绍视频：**https://www.bilibili.com/video/BV19VtA6MEQb/**
 
 本仓库是发布正本（版本历史 + Releases）。国内玩家下载若 GitHub 较慢，请以视频简介里的网盘为准。
 
