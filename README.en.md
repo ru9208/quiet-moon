@@ -12,7 +12,7 @@ Two Minecraft Bedrock add-ons. They are designed to be used together.
 ## Author
 
 - Author: **ru9208**
-- Bilibili intro video: **(add the link after upload)**
+- Bilibili intro video: **(https://www.bilibili.com/video/BV19VtA6MEQb/)**
 
 This repo is the canonical source (history + Releases). If GitHub is slow, use the cloud-drive link in the Bilibili description.
 
