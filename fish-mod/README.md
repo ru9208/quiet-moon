@@ -2,7 +2,7 @@
 
 Minecraft Bedrock 附加包。当前版本 **v2.1.19**（引擎 **1.21.0+**）。
 
-42 种附魔鱼、群系×昼夜钓鱼、附魔台合成、村民经济、水生桶装与潜影贝宠物。与 [食物包](../food-mod/README.md) 一起构成 My Pack 世界规则。
+42 种附魔鱼、群系×昼夜钓鱼、附魔台合成、村民经济、水生桶装与潜影贝宠物。与 [食物包](../food-mod/README.md) 一起构成 Quiet Moon 世界规则。
 
 42 enchant fish, biome × day/night fishing, enchanting-table crafting, villager economy, mob buckets, and a tamed shulker pet. Pair with the Food pack.
 

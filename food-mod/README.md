@@ -2,7 +2,7 @@
 
 Minecraft Bedrock 附加包。当前版本 **v1.0.48**（引擎 **1.21.130+**）。
 
-安静生存：非满月停止新刷怪；饥饿、炼药炖汤、怪物氛围。与 [附魔鱼 / 宠物包](../fish-mod/README.md) 一起构成 My Pack 世界规则。
+安静生存：非满月停止新刷怪；饥饿、炼药炖汤、怪物氛围。与 [附魔鱼 / 宠物包](../fish-mod/README.md) 一起构成 Quiet Moon 世界规则。
 
 Quiet survival for Bedrock: no new spawns on a quiet moon; hunger, potion stews, atmospheric mobs. Pair with the Enchant Fish & Pets pack.
 

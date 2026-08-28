@@ -1,4 +1,4 @@
-# My Pack（基岩版世界规则）
+# Quiet Moon（基岩版世界规则）
 
 两个 Minecraft Bedrock 附加包，建议一起使用。
 

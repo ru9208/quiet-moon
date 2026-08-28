@@ -1,4 +1,4 @@
-# My Pack GitHub publish exclusions
+# Quiet Moon GitHub publish exclusions
 .DS_Store
 Thumbs.db
 __pycache__/

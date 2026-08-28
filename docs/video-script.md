@@ -1,23 +1,8 @@
 已按 **食物包 v1.0.48** 与 **附魔鱼/宠物包 v2.1.19** 的实际实现，重写并优化视频台词。
 
-相对 v1.0.37 / v2.1.13 稿的主要修正：
-
-- 非满月是 **关闭新刷怪**（三维度 `doMobSpawning`），**不是**把难度改成和平；满月才重新开刷并沿用你保存的战斗难度
-- 满月判定是 **整天**（月相 0，约第 0 / 8 / 16… 天），不是「只有晚上」
-- **非满月不能繁殖肉食动物**；睡过跳夜会 **清饱和 + 饥饿 I 120 秒**
-- 僵尸村民 **会按饥饿追人、被打会还手**
-- 岩浆怪 **接触伤害与着火对玩家取消**
-- 恶魂：**弓 / 弩 / 三叉戟**才主动喷火，挨打会还手
-- 附魔鱼 **42 种**（昼夜池 41 种；力量鱼走制箭师，当前不进钓鱼池）
-- 鳕鱼 / 鲑鱼 **仅满月**可钓；非满月该 65% 用垃圾占位，附魔鱼仍 5%
-- 宝藏槽是 **末影珍珠**；神龟汤增益约 **20 秒**；缓降汤约 **4 分钟**
-- 潜影贝染料 **只改色**；取出用 **氧化铜块**
-- 鹦鹉螺：驯服后认 **水桶 / 鱼桶**，野生只认河豚；自定义桶用于装载
-- 原稿蜘蛛繁育仍未实现，已删
-
 ---
 
-# My Pack 世界规则 · 视频台词（中英字幕版）
+# Quiet Moon 世界规则 · 视频台词（中英字幕版）
 
 > 格式：`中文旁白` / `English subtitle`  
 > 版本：Food **1.0.48** · Enchant Fish & Pets **2.1.19**  
@@ -338,14 +323,10 @@ A personal favorite—a quiet End companion. Wandering traders sometimes sell a 
 ## 七、结尾 · Closing
 
 **CN**  
-这就是 My Pack 的世界规则：**安静为主，满月才战、才刷、才能繁殖肉食；饥饿与炼药、钓鱼与附魔、村民与群系，终于连成一张网。**  
-食物包 **v1.0.48**，附魔鱼与宠物包 **v2.1.19**——重新导入 mcaddon；**新生成** 的村民与流浪商人才会带上新交易。  
-去雪原溜达吧。今晚若不是满月，你可能真的不用怕。
+这就是 Quiet Moon 的世界规则：**安静为主，满月才战、才刷、才能繁殖肉食；饥饿与炼药、钓鱼与附魔、村民与群系，终于连成一张网。**
 
 **EN**  
-These are My Pack’s world rules: **calm by default; combat, spawns, and meat breeding on the full moon; hunger, brewing, fishing, enchanting, villagers, and biomes—finally one web.**  
-Food pack **v1.0.48**, Enchant Fish & Pets **v2.1.19**. Re-import the mcaddon; only **newly spawned** villagers and wandering traders get the new trades.  
-Take that stroll in the snow. If it isn’t a full moon, you might actually be fine tonight.
+These are Quiet Moon’s world rules: **calm by default; combat, spawns, and meat breeding on the full moon; hunger, brewing, fishing, enchanting, villagers, and biomes—finally one web.**
 
 ---
 
