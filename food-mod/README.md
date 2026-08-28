@@ -27,7 +27,7 @@ Quiet survival for Bedrock: no new spawns on a quiet moon; hunger, potion stews,
 - 10 种药水炖汤；熟肉不可堆叠；非满月肉食动物不能繁殖
 - 跳夜：清空饱和 + 饥饿 I 120 秒；鸡下蛋约 20–40 分钟一枚
 
-完整列表见仓库根目录 [README](../README.md)。
+完整列表：[中文](../README.md) · [English](../README.en.md)。
 
 ## 许可 / License
 
